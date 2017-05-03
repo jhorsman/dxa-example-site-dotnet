@@ -1,0 +1,6 @@
+.vs/
+packages/
+*.user
+bin/
+obj/
+BinaryData/
