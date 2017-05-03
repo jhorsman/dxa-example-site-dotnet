@@ -285,6 +285,12 @@
   <ItemGroup>
     <Content Include="Views\Shared\Partials\XpmButton.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Sdl.Web.Modules.Core.csproj">
+      <Project>{32943bd1-4891-4b03-afcd-296658f61581}</Project>
+      <Name>Sdl.Web.Modules.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
